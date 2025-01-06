@@ -1,3 +1,4 @@
+ document.addEventListener("DOMContentLoaded", (event) => {
 // Seleção de elementos do DOM
 const playerAvatar = document.querySelector(".player");
 const obstacles = document.querySelectorAll(".obstacle");
@@ -161,4 +162,4 @@ function createObstacles() {
 
 // Inicialização dos obstáculos
 createObstacles();
-
+ });
